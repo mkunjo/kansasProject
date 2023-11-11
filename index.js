@@ -1,4 +1,4 @@
-// Import functions from another module
+// Import functions
 import { redirectToAuthCodeFlow, getAccessToken } from "./authCodeWithPkce";
 
 const clientId = "7d40960b51a942d78ad396bdfc2ff40b";
