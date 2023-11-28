@@ -35,3 +35,9 @@ function populateUI(profile) {
     document.getElementById("url").setAttribute("href", profile.href);
     document.getElementById("imgUrl").innerText = profile.images[0].url;
 }
+
+function slide_info(){
+    features = document.querySelectorAll("feature");
+    alert(features[0]);
+}
+document.onload = function(){alert(1)};
