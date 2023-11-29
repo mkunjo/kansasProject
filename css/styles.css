@@ -54,16 +54,12 @@ header ul li a:hover {
 /* Hero section styles */
 .hero {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 0;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 100px 30px 0px 30px;;
 }
 
 .hero-content {
-    flex: 1;
     padding: 0 20px;
+    margin:auto;
 }
 
 .hero h1 {
@@ -117,6 +113,11 @@ header ul li a:hover {
 .features .feature {
     text-align: center;
     padding: 0 20px;
+}
+
+.featureTrans {
+    transition: 2s ease-out;
+    opacity: 0;
 }
 
 /* Contact section styles */
