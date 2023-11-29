@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kansas Project - Your Ultimate Music Collaboration Platform</title>
-
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <nav>
-            <!-- logo and navigation links  -->
             <div class="logo">
                 <img src="logo.png" alt="Kansas Project Logo">
             </div>
@@ -48,26 +46,24 @@
             <p>Invite friends to collaborate on playlists for shared music discovery.</p>
         </div>
         <div class="feature">
-            <h2>AI Recommendations(Coming Soon)</h2>
+            <h2>AI Recommendations (Coming Soon)</h2>
             <p>Discover new music with AI-powered playlist recommendations.</p>
         </div>
     </section>
 
     <!-- Footer Section -->
     <footer>
-        <!-- Add footer content and links here -->
         <p>&copy; DBMS 2023 Kansas Project</p>
     </footer>
 </body>
 </html>
 
 <script>
-features = document.querySelectorAll(".feature");
+document.addEventListener('DOMContentLoaded', function() {
+    var features = document.querySelectorAll('.feature');
 
-function slide_info(){    
-    features.forEach(e => {
-        alert(e);
+    features.forEach(function(feature) {
+        console.log(feature.textContent);
     });
-}
-document.onload = function(){slide_info()};
+});
 </script>
