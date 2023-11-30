@@ -19,7 +19,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="features.html">Features</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="SignUp.html">Sign Up</a></li>
                 <li><a href="SignIn.html">Sign In</a></li>
             </ul>
         </nav>
@@ -29,7 +29,9 @@
     <!-- Features Section -->
     <section id="features" class="features">
         <div class="feature">
-            <h2>Create Playlists</h2>
+            <a href="index.html">
+                <h2>Create Playlists</h2>
+            </a>
             <p>Create and manage your music playlists with ease.</p>
         </div>
         <div class="feature">
@@ -50,3 +52,12 @@
     </footer>
 </body>
 </html>
+<script>
+    var feat = querySelectorAll('.feature')
+    
+    feat.forEach(bs => {
+        bs.addEventListener('click', e => {
+
+        })
+    })
+</script>
