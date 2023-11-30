@@ -22,6 +22,10 @@ header {
     padding: 20px 0;
 }
 
+logo{
+    max-width: 20px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
