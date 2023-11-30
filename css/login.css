@@ -22,6 +22,10 @@ header {
     padding: 20px 0;
 }
 
+#icon{
+    width: 100px;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;

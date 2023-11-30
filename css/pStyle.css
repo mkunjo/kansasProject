@@ -9,8 +9,8 @@ header {
     padding: 20px 0;
 }
 
-logo{
-    max-width: 20px;
+#icon{
+    width: 100px;
 }
 
 nav {
