@@ -11,19 +11,10 @@ if ($conn->connect_error){
     die("Connection failed: ") . $conn->connect_error;
 }
 
-$targetDir = "C:/repos/kansasproject/uploads/audio_uploads/";
-
+$targetDir = "C:/repos/kansasproject/uploaded_music";
 
 if(isset($_POST['submit'])){
 
-    if(isset($_FILES['file']) && $_FILES['file']['error'] == 0){
-        $fileName = basename($_FILES["file"]["name"]);
-        $targetPath = $targetDir.$fileName;
-    
-        //Moving file to targetPath
-        if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetPath)){
-        }
-    }
     $name = $_POST['name'];
     $name = filter_var($name, FILTER_SANITIZE_STRING);
     $artist = $_POST['artist'];
