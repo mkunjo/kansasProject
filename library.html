@@ -28,12 +28,15 @@
     <section id="features" class="features">
         <lib>
         <div class="feature">
-            <a href="index.html">
-                <a href="library.html"><h2>Create Playlists</h2></a>
+                <a href="upload_music.php"><h2>Create Playlists</h2></a>
             </a>
             <p>Create and manage your music playlists with ease.</p>
         </div>
         </lib>>
+        <form action="upload_music.php" method="post" enctype="multipart/form-data">
+            <input type="file" name="file"><br/>
+            <input type="submit" value="Upload">
+        </form>
     </section>
 
 

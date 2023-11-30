@@ -10,7 +10,7 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "musicproject",
-            "username": "root",
+            "username": "bob",
             "database": "MusicDB"
         }
     ]
