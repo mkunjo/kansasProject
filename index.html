@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kansas Project - Your Ultimate Music Collaboration Platform</title>
-
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <nav>
-            <!-- logo and navigation links  -->
             <div class="logo">
                 <img src="logo.png" alt="Kansas Project Logo">
             </div>
@@ -33,15 +31,24 @@
             <a href="#signup" class="cta-button">Get Started</a>
         </div>
         <div class="hero-image">
-            <img src="hero-image.jpg" alt="Music Collaboration Illustration">
+            <img src="res/streaming.png" alt="Music Collaboration Illustration" width="300px">
         </div>
     </section>
 
 
     <!-- Footer Section -->
     <footer>
-        <!-- Add footer content and links here -->
         <p>&copy; DBMS 2023 Kansas Project</p>
     </footer>
 </body>
 </html>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var features = document.querySelectorAll('.feature');
+
+    features.forEach(function(feature) {
+        console.log(feature.textContent);
+    });
+});
+</script>

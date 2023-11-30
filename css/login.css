@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Pixelify+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  background: linear-gradient(to right, #6e8efb, #a777e3, #DFB7E3);
+}
+/* Header styles */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo img {
+    max-height: 40px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+header ul li a:hover {
+    color: #cccccc;
+}
+
+
+#container, #container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    min-height: 280px;
+    min-width: 300px;
+    background-color: white;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.input {
+    background-color: #f7f7f7;
+    border: none;
+    padding: 10px;
+    border-bottom: 2px solid #DFB7E3;
+}
+
+.top {
+    background: linear-gradient(to left, #6e8efb, #a777e3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-radius: 0 0 75px 75px;
+}
+
+.top h1 {
+    color: white;
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 30px; 
+    background-color: #6e8efb;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a777e3;
+}
+
+.signup {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 338px) {
+    #container, #container2 {
+        min-width: 250px;
+    }
+}
