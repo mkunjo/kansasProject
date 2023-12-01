@@ -39,8 +39,13 @@
       </div>
    
       </div>
-   
    </section>
+   <div>
+      <tr>
+         <td> Song Name</td>
+         <td> Artist </td>
+         <td> Album </td>
+   </div>
 
     <!-- Footer Section -->
     <footer>
